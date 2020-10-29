@@ -1,4 +1,4 @@
-'use strict';
+
 
 const generateSubCatalog = () => {
     const subCatalogHTML = `
@@ -31,4 +31,4 @@ const generateSubCatalog = () => {
     document.body.insertAdjacentHTML('beforeend', subCatalogHTML);
 };
 
-generateSubCatalog();
+export default generateSubCatalog;
